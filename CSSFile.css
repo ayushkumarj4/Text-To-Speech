@@ -1,0 +1,59 @@
+/* CSSFile.css */
+
+body {
+    background-color: purple;
+    padding-top: 10px;
+  }
+.inBox{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(169, 169, 169, 0.634);
+}
+h1{
+  padding-left: 5%;
+  padding-bottom: 3px;
+  display: flex;
+  border: black;
+  justify-content: space-evenly;
+  align-items: center;
+  background:cornflowerblue;
+
+}  
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  input[type="range"] {
+    width: 200px;
+  }
+  
+  #volume-label,
+  #rate-label,
+  #pitch-label {
+    /* border: #000; */
+    color: #fff;
+  }
+  
+  .mb-5 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem ;
+  }
+  
+  .mt-4 {
+    
+    margin-top: 1.5rem ;
+  }
+  
+  .mt-5 {
+    
+    margin-top: 3rem ;
+  }
+  
+  .me-3 {
+    margin-right: 1rem ;
+  }
+  
+  
